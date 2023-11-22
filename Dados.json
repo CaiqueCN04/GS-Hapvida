@@ -1,5 +1,11 @@
 {
   "usuarios": [
-    
+    {
+      "nome": "caique",
+      "email": "cchagas04@gmail.com",
+      "senha": "12345",
+      "CPF": "55841719807",
+      "id": 1
+    }
   ]
 }

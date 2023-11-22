@@ -22,16 +22,42 @@ function Home() {
                                 TITULO DA SOLUÇÃO
                             </h1>
                         </div>
-                        
-                        <div className="banner">
-                            <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos unde porro am.
-                            <br />
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                            </p>
-                            <a href="#">Mais informação</a>
+                        <div className='prebanner'>
+                            <div className="banner">
+                                <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos unde porro am.
+                                <br />
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                </p>
+                                
+                            </div>
+                            <button type="button" className="maisinfo btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                Mais informações
+                            </button>
+
+                            
+                            <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div className="modal-dialog">
+                                <div className="modal-content">
+                                <div className="modal-header">
+                                    <h1 className="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div className="modal-body">
+                                    infoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfoinfo
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" className="btn btn-primary">Understood</button>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                            
                         </div>
+                            
                     </article>
+                    
                 </section>
                 
                 <aside>

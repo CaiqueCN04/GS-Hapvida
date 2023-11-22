@@ -77,7 +77,7 @@ function Login() {
                 required
               /> 
             </div>
-            <button type="submit" className="btn btn-primary">Logar</button> 
+            <button type="submit" className="botaoLogin btn btn-primary">Login</button> 
           </form>
       </main>
       
