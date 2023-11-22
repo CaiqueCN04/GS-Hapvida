@@ -1,0 +1,30 @@
+@import './variaveis.scss';
+
+.ListarPedidos{
+    background-color: $cor-fundo;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    text-align: center;
+    padding: 15px;
+    gap: 15px;
+}
+
+table{
+    background-color: #fff;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 20px;
+
+}
+.inserir{
+    color: black;
+   
+}
+
+.inserir:hover{
+    background-color: #fff;
+    width: 160px;
+    border-radius: 15px;
+    margin-left: 46%;
+}

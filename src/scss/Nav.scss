@@ -1,0 +1,53 @@
+@import './variaveis';
+
+
+
+nav{
+   display: flex;
+   height: 110px;
+   align-items: center;
+   justify-content: space-around;
+   background-color: $cor-fundo ;
+   flex-direction: row;
+}
+
+.usuarioNav{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.tudoNav{
+    width: 100%;
+    display: flex;
+    box-shadow: 1px 19px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 19px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 19px 5px 0px rgba(0,0,0,0.75);
+}
+ul{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 15px;
+    justify-content:center;
+    margin-right: 30px;
+}
+
+.img-nav{
+    height: 100px;
+    border-radius: 6px 100px / 120px 100px;
+}
+@media screen and (max-width: 480px){
+    nav{
+        height: 300px;
+    }
+    .ul{
+        margin-top: 1px;
+    }
+    ul{
+        gap: 4px;
+        height: 40px;
+    }
+    .img-nav{
+        width: 160px;
+        margin-left: 5px;
+    }
+}

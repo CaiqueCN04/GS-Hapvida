@@ -1,0 +1,46 @@
+@import './variaveis.scss';
+
+.pedido{
+    display: flex;
+    background-color: $cor-fundo;
+    height: 900px;
+    text-align: center;
+    padding: 15px;
+    flex-direction: column;
+
+}
+
+.inputPed{
+    margin: 20px;
+    width: 350px;
+}
+.titulocadastroPed{
+    text-align: center;
+    height: 150px;
+}
+
+
+.dados{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 38%;
+    background-color: $cor-login-cadastro;
+    border-radius: 20px;
+    width: 400px;
+    height: 400px;
+}
+
+.botao{
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+}
+
+@media (max-width: 481px) {
+    .dados{
+        width: 400px;
+        margin-left: 1px;
+    }
+}

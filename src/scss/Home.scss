@@ -1,0 +1,140 @@
+@import './variaveis.scss';
+
+.mainHome{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.img-home{
+    height: 300px;
+    width: 780px;
+    margin: 10px;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+article{
+    display: flex;
+    gap: 60px;
+    
+}
+.tituloSolucao{
+    width: 150px;
+    margin-top: 40px;
+    text-align: center;
+}
+.banner {
+    max-width: 600px;
+    height: 230px;
+    margin-top: 25px;
+    border: 1px solid #8c8888;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  
+    p {
+      text-align: center;
+    }
+  
+    a {
+      position: absolute;
+      bottom: 0;
+      right: 0; 
+      text-decoration: none;
+      border-radius: 3px;
+      border: 1px solid rgb(98, 96, 96);
+      padding: 10px;
+      margin: 10px;
+    }
+  }
+
+aside{
+  display: flex;
+  flex-direction: column;
+  width: 75vh;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.vantagens {
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+  @media (max-width:850px) { 
+    flex-direction: column;
+  }
+
+  .card {
+    max-width: 500px;
+    border: 1px solid rgb(174, 173, 173);
+    display: flex;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px rgb(147, 145, 145);
+    flex-direction: row;
+
+   
+
+    .textos {
+      padding: 15px;
+
+      h1 {
+        font-size: 25px;
+        margin-bottom: 10px;
+      }
+  
+      h2 {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+    }
+
+  }
+}
+
+@media (max-width: 669px){
+  .mainHome{
+    flex-direction: column;
+  }
+  .img-home{
+    width: 480px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 481px){
+  .mainHome{
+    flex-direction: column;
+    justify-content: center;
+  }
+  aside{
+    width: 460px;
+  }
+  .vantagens{
+    flex-direction: column;
+  }
+  article{
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .cards{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1111px){
+  .mainHome{
+    flex-direction: column;
+    justify-content: center;
+  }
+}
