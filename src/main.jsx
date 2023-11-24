@@ -11,7 +11,7 @@ import {  createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './routes/Home.jsx'
 import Login from './routes/Login.jsx'
 import Cadastro from './routes/Cadastro.jsx'
-import ListarCadastro from './routes/ListarCadastros.jsx'
+
 
 
 
@@ -24,9 +24,6 @@ const router= createBrowserRouter([
       {path: '/', element: <Home/>},
       {path: '/Login', element: <Login/>},
       {path: '/Cadastro', element: <Cadastro/>},
-      {path: '/listarCadastro', element: <ListarCadastro/>},
-      {path: '/incluir/', element:<Cadastro/>},
-      {path: '/editar/:id',element:<Cadastro/>},
     ]
   }
 
