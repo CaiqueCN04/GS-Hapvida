@@ -32,7 +32,6 @@ function Nav() {
             <li className='btn btn-warning'><Link to="/" className='text-decoration-none text-light'>Home</Link></li>
             <li className='btn btn-warning'><Link to="/Login" className='text-decoration-none text-light'>Login</Link></li>
             <li className='btn btn-warning'><Link to="/cadastro" className='text-decoration-none text-light'>Cadastro</Link></li>
-            <li className='btn btn-warning'><Link to="/listarCadastro" className='text-decoration-none text-light'>Listar Cadastros</Link></li>
             <li className='btn btn-warning text-decoration-none text-light' onClick={handleLogout}>Logout</li>
           </ul>
         </div>

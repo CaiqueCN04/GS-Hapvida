@@ -65,6 +65,7 @@ function Cadastro() {
     <div className='pedido'>
         <h1 className='titulocadastroPed'>Cadastro</h1>
         <form className='dados' onSubmit={handleSubmit}>
+        <label htmlFor="idusuario">Usuário:</label>
             <input
             className='inputPed'
             type="text"
@@ -74,6 +75,7 @@ function Cadastro() {
             onChange={handleChange}
             required
             />
+            <label htmlFor="idcpf">CPF:</label>
             <input
             className='inputPed'
             type="number"
@@ -83,6 +85,7 @@ function Cadastro() {
             onChange={handleChange}
             required
             />
+            <label htmlFor="idemail">email:</label>
             <input
             className='inputPed'
             type="email"
@@ -92,6 +95,7 @@ function Cadastro() {
             onChange={handleChange}
             required
             />
+            <label htmlFor="idsenha">senha:</label>
             <input
             className='inputPed'
             type="password"

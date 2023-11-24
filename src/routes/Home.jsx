@@ -89,7 +89,7 @@ function Home() {
                 </h2>
                 <section className="vantagens">
                     <article className='card'>
-                        <img src="http://lorempixel.com.br/150/250/?1" alt="" />
+                        <img src="/src/imagens/Tempo-de-Espera-Reduzido.jpg" alt="" className='cardimg img-fluid'/>
                         <div className='textos'>
                             <h2>Redução de Filas e Tempo de Espera:</h2>
                             <p>
@@ -99,7 +99,7 @@ function Home() {
                     </article>
 
                     <article className='card'>
-                        <img src="http://lorempixel.com.br/150/250/?2" alt="" />
+                        <img src="/src/imagens/velocimetro.webp" alt="" className='cardimg img-fluid' />
                         <div className='textos'>
                             <h2>Otimização do Trabalho Médico:</h2>
                             <p>
@@ -109,7 +109,7 @@ function Home() {
                     </article>
 
                     <article className='card'>
-                        <img src="http://lorempixel.com.br/150/250/?3" alt="" />
+                        <img src="/src/imagens/telemedicina.jpg" alt="" className='cardimg img-fluid' />
                         <div className='textos'>
                             <h2>Acesso Facilitado à Telemedicina e Atendimento Presencial:</h2>
                             <p>

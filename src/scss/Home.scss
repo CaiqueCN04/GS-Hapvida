@@ -67,7 +67,7 @@ aside{
 }
 
 .cardimg{
-  height:max-content;
+  
   width: 250px;
 }
 .titulo{
@@ -78,13 +78,15 @@ aside{
   display: flex;
   justify-content: center;
   flex-direction: row;
+  width: 100%;
 
   @media (max-width:850px) { 
+
     flex-direction: column;
   }
 
   .card {
-    max-width: 500px;
+    max-width: 700px;
     border: 1px solid rgb(174, 173, 173);
     display: flex;
     margin: 10px;
@@ -93,7 +95,7 @@ aside{
     box-shadow: 2px 2px 2px rgb(147, 145, 145);
     flex-direction: row;
 
-   
+    
 
     .textos {
       padding: 15px;
@@ -109,6 +111,19 @@ aside{
       }
     }
 
+  }
+}
+
+@media (max-width: 1441px){
+  .vantagens{
+    height: 500px;
+  }
+  .card{
+    height: 500px;
+  }
+  .cardimg{
+    height: 250px;
+    width: 180px;
   }
 }
 
@@ -147,5 +162,10 @@ aside{
   .mainHome{
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+  }
+  .vantagens{
+    flex-direction: column;
+    height: 800px;
   }
 }
